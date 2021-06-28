@@ -93,3 +93,4 @@ nodejs
 npm
 mariadb
 opera
+tree
