@@ -92,3 +92,4 @@ composer
 nodejs
 npm
 mariadb
+opera
