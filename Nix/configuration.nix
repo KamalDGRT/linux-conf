@@ -49,6 +49,7 @@
 
   # Enable the GNOME Desktop Environment.
   services.xserver.displayManager.gdm.enable = true;
+  services.xserver.displayManager.gdm.wayland = false;
   services.xserver.desktopManager.gnome.enable = true;
   # services.xserver.videoDrivers = [ "nvidia" ];
 
@@ -69,7 +70,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
    users.users.kamal = {
      isNormalUser = true;
-     initialPassword = "P@ssw0rd01";
+     initialPassword = "KamalSharma";
      extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
    };
 
@@ -118,7 +119,8 @@
      # Graphics
      drawing
      
-     
+     # Gnome Extensions
+     gnomeExtensions.appindicator
    ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -149,4 +151,3 @@
   system.stateVersion = "21.05"; # Did you read the comment?
 
 }
-
