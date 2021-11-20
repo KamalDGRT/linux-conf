@@ -1,23 +1,23 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "material-product-icons",
-    "window.zoomLevel": 4,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.rulers": [
         80
     ],
+    "explorer.confirmDelete": false,
+    "prettier.tabWidth": 4,
+    "window.zoomLevel": 4,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#ff4081"
     },
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.productIconTheme": "el-vsc-v1-icons",
     "workbench.startupEditor": "none",
-    "explorer.confirmDelete": false,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.tabWidth": 4,
-    "workbench.colorTheme": "Cobalt Next Minimal"
+    }
 }
