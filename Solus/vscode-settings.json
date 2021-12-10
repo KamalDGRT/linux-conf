@@ -6,12 +6,12 @@
     ],
     "explorer.confirmDelete": false,
     "prettier.tabWidth": 4,
-    "window.zoomLevel": 4,
+    "window.zoomLevel": 3,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#ff4081"
     },
     "workbench.iconTheme": "bearded-icons",
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Dracula",
     "workbench.productIconTheme": "el-vsc-v1-icons",
     "workbench.startupEditor": "none",
     "[html]": {
@@ -19,5 +19,7 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true
 }
