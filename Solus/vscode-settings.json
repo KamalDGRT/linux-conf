@@ -1,12 +1,17 @@
 {
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.rulers": [
-        80
-    ],
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80],
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
     "explorer.confirmDelete": false,
     "prettier.tabWidth": 4,
-    "window.zoomLevel": 3,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#ff4081"
     },
@@ -20,6 +25,8 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": true
+    "window.zoomLevel": 1,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
